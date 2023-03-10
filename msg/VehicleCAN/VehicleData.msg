@@ -20,3 +20,8 @@ float32   lateral_acceleration       # host vehicle lateral accleration [g]
 bool      state_clamp15              # flag that indicates the clamp 15 state, false = off, true = on
 float32   engine_speed               # engine rounds per minute [rpm]  
 bool      engine_running             # flag that indicates if the engine is running, false = engine off, true = engine running 
+
+float32   wheel_speed_fl             # Speed of the front left wheel [km/h]
+float32   wheel_speed_fr             # Speed of the front right wheel [km/h]            
+float32   wheel_speed_rl             # Speed of the rear left wheel [km/h]
+float32   wheel_speed_rr             # Speed of the rear right wheel [km/h]
