@@ -20,7 +20,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/VehicleCAN/SteeringWheelButtons.msg"
   "msg/VehicleCAN/TrafficSignData.msg"
   "msg/VehicleCAN/VehicleData.msg"
-  "msg/ToAutoware.msg"
   DEPENDENCIES builtin_interfaces std_msgs
 )
 
