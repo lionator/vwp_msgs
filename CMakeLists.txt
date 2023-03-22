@@ -17,9 +17,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/VehicleCAN/PositionDataVehicleCan.msg"
   "msg/VehicleCAN/RearObject.msg"
   "msg/VehicleCAN/RearObjectData.msg"
-  "msg/VehicleCAN/SteeringWheelButtons.msg"
   "msg/VehicleCAN/TrafficSignData.msg"
   "msg/VehicleCAN/VehicleData.msg"
+  "msg/CustomerCAN/GatewayState.msg"
   DEPENDENCIES builtin_interfaces std_msgs
 )
 
