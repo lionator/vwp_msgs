@@ -20,6 +20,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/VehicleCAN/TrafficSignData.msg"
   "msg/VehicleCAN/VehicleData.msg"
   "msg/CustomerCAN/GatewayState.msg"
+  "msg/CustomerCAN/CancelConditions.msg"
+  "msg/Gamepad.msg"
   DEPENDENCIES builtin_interfaces std_msgs
 )
 
