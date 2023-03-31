@@ -5,6 +5,7 @@ uint8 gi_state
 uint8 si_state
 uint8 vi_state
 uint8 pdi_state
+uint8 thi_state
 uint8 ai_clearance
 uint8 si_clearance
 uint8 ebi_clearance
