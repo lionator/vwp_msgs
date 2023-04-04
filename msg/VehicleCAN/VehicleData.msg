@@ -7,6 +7,7 @@ float32   vehicle_mass               # host vehicle mass [kg]
 
 float32   throttle_pedal_pos          # position of the acceleration pedal operated by the driver [%]    
 bool      driver_braking             # flag that indicates if driver is pressing the brake pedal, false = driver not braking, true = driver braking
+uint8     epb_state                   # Electronic Park Brake -> 0: NotEngaged, 1: Engaged, 2: ActuatorRunning 3: ErrorOrUnknown
 bool      turn_indicator_left         # flag that indicates if the left turn indicator is operated, false = off, true = on
 bool      turn_indicator_right        # flag that indicates if the right turn operator is operated, false = off, true = on                                          
 float32   steering_wheel_angle        # steering wheel angle [deg]                                 
