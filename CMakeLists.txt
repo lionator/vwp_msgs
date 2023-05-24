@@ -22,6 +22,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CustomerCAN/GatewayState.msg"
   "msg/CustomerCAN/CancelConditions.msg"
   "msg/Gamepad.msg"
+  "msg/CustomerCAN/AutowareCommand.msg"
   DEPENDENCIES builtin_interfaces std_msgs
 )
 
